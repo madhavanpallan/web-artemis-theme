@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,800');
+
+
+
+.container {max-width: 90%; min-height: 30px; display: inherit; margin: 0 auto; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p{font-family: 'Montserrat', sans-serif;}
+img {width: 100%;}
+.wow { visibility: hidden; }
+a:hover{text-decoration: none;color: #007bff;}
+ul{list-style: none;padding-left: 0;}
+
+
+
+.header {text-align: center;background-color: #0a376e;height: 52px;}
+.header ul li{display: inline-block;}
+.header ul li a{font-weight: 500; padding: 12px 40px; display: block;text-decoration: none; font-size: 18px; color: #fff;}
+.header ul li:hover{border-bottom: 2px solid #fff;}
+.ban-text{margin: auto;}
+.ban-text h6{color: #196fbc;font-size: 42px;font-weight: 700;}
+.ban-text h1{color: #0a376e;font-size: 86px; font-weight: 700;}
+.ban-text p{color: #628daf;font-size: 28px;font-weight: 700;}
+
+.abt{box-shadow: 3px 5px 28.16px 3.84px rgba(234, 229, 229, 1); border-radius: 10px; padding: 40px;}
+.abt h4,.wor h4{font-weight: 700;color: #467394;font-size: 28px;}
+.abt h4:after,.wor h4:after{content: '';display: block;width: 90px; height: 5px;background-color: #053a6e;margin: auto;}
+.abt-par p{color: #849fb4;font-weight: 500;font-size: 18px;}
+.abt-img img{width: 70%; border-radius: 50%;box-shadow: 3px 5px 28.16px 3.84px rgba(234, 229, 229, 1);}
+.abt-cot {justify-content: space-between;}
+.abt-cot h5{font-weight: 700;color: #034076;}
+.abt-cot a{ font-weight: 700;text-decoration: none;color: #7d9fbb;font-size: 22px;}
+.res-btn a{background-color: #0a376e; color: #fff; border-radius: 25px; text-decoration: none; font-weight: 500; padding: 12px 20px;font-size: 18px;box-shadow: 3px 5px 28.16px 3.84px rgba(234, 229, 229, 1);}
+.res-btn a img{width: auto;margin-right: 15px;}
+.res-btn a:hover{background-color:#628daf ;} 
+
+
+.blue-bg{background-color: #f1f8fe;padding: 40px 0;margin-top: 60px;}
+.work{box-shadow: 3px 5px 28.16px 3.84px rgba(234, 229, 229, 1); background-color: #fff; padding: 20px 30px; border-radius: 20px; margin-top: 20px;} .wor h4:after{width: 40px;} 
+.work img,.pub-cont img{width: auto;}
+.work h5{color: #467394;font-weight: 600;}
+.work h6{color: #cccccc;margin-bottom: 20px;}
+.work p{color: #688aa5;font-weight: 500;}
+
+.pub {padding:60px 0;} .pub-cont {display: flex; align-items: center; background: #f1f8fe; border-radius: 10px; box-shadow: 3px 5px 28.16px 3.84px rgba(234, 229, 229, 1); padding: 40px; width: 80%; margin: 60px auto 0;}
+.pub-det h5{color: #0a356a;font-weight: 700; font-size: 24px;}
+.pub-det p{font-weight: 700; color: #467394; font-size: 16px;}
+
+
+.skill h4:after {margin: 0;}
+.skill p{color: #7d9fbb; margin:25px 0;font-weight: 700;}
+
+
+.cont {background-color: #0a376e;padding: 40px 0 90px;}
+.cont h4,.follow h4{color: #fff;}
+.cont h4:after,.follow h4:after { background: #fff; }
+input, textarea {border: 0; padding: 3px 0; box-shadow: none; outline: 0;}
+input {border-bottom: 2px solid #0a3673; width: 100%; }
+/* 
+ * Floating label styles
+ * Based on http://jsfiddle.net/RyanWalters/z9ymd852/
+ */
+.is-floating-label {position: relative; margin-bottom: 15px; height: 50px; }
+.is-floating-label input {position: absolute; left: 0; background-color: transparent; }
+.is-floating-label label {opacity: 0.3; pointer-events: none; position: absolute; transform: translate3d(0, 0, 0) scale(1); transform-origin: left top; transition: 100ms; color: #457090; font-weight: 700; }
+.is-floating-label.is-focused label {transform: translateY(-20px) scale(0.55); }
+.form {background-color: #f1f8fe; box-shadow: 12px 12px 38.16px -2.16px rgba(234, 229, 229, 0.7);border-radius: 10px;padding: 40px;min-height: 400px;}
+.form .res-btn a {padding: 5px 40px;}
+.form .res-btn {margin: auto;}
+.map {box-shadow: 12px 9px 33.16px -15.16px rgba(234, 229, 229, 0.7); border-radius: 10px; overflow: hidden;}
+.conta {margin-top: -60px;}
+
+footer {background-color: #0a376e;padding: 60px 0;margin-top: 60px;position: relative; }
+.follow ul {display:flex;justify-content: center;margin-top: 35px;}
+.follow ul li a{color: #fff;font-size: 36px;margin: 0 15px;}
+.follow ul li a:hover{color: #fff;}
+
+.b-top{ color: #0a376e;box-shadow: 0px 0px 14.16px 0.84px rgba(234, 229, 229, 0.7);background: #fff; height: 40px; width: 40px; display: block; text-align: center; line-height: 40px; border-radius: 50%; font-size: 20px; position: absolute; top: -20px; right: 50px;}
+.b-top:hover{ color: #0a376e;}
